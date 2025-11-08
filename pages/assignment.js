@@ -59,7 +59,7 @@
      if (!user) return <div className="p-8 text-center">Please log in to view your assignments.</div>;
 
      return (
-       <div className="p-8 bg-gradient-to-br from-blue-100 to-green-100 min-h-screen">
+       <div className="bg-linear-to-br from-blue-500 to-purple-500">
          <h1 className="text-3xl font-bold mb-4 text-center">Your Assignments</h1>
          <p className="text-center mb-6">Completed: {completedCount}/{assignments.length} – You're doing awesome! 🌟</p>
          
